@@ -1,0 +1,23 @@
+.breedList {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    overflow: auto;
+    height: 90vh;
+}
+
+.breedCard {
+    border: black solid 1px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    min-width: max-content;
+    padding-bottom: 15px;
+}
+
+.breedCard > img {
+    border-radius: 5px;
+    object-fit: contain;
+    width: 175px;
+}

@@ -1,0 +1,20 @@
+@import "./breed.css";
+@import "./images.css";
+
+
+.container--main {
+    display: flex;
+    height: min-content;
+}
+
+.container--left {
+    width: 50%;   
+}
+
+.container--right {
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
